@@ -29,7 +29,7 @@ const helpmoongu = Math.random() * 3
 if (helpmoongu == 3) {
   helpmoongu = 2
 }
-goodmoongu = ["https://naver.me/GB5WFMbK 운영자님 댓글 ㄷㄷ", "엔프님이 이런거 하셨던걸 아시나요? https://naver.me/GB5WFMbK", "https://naver.me/GB5WFMbK 운영자도 이럴땨가 있었습니다(?)"]
+const goodmoongu = ["https://naver.me/GB5WFMbK 운영자님 댓글 ㄷㄷ", "엔프님이 이런거 하셨던걸 아시나요? https://naver.me/GB5WFMbK", "https://naver.me/GB5WFMbK 운영자도 이럴땨가 있었습니다(?)"]
 
 fetch("https://playentry.org/graphql/", {
   headers: {
